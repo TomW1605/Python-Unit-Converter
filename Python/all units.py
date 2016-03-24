@@ -12,7 +12,7 @@ while True:
                             to = input('What do you want to convert to? ')
                             c = float(input("\nThe temperature in Celsius is: "))
                             if to == 'f':
-                                f = c * 9 / 5 + 32
+                                f = c * 9 / 5 + 30
                                 f1 = round(f, 1)
                                 print("The temperature is: " + str(f1) + '˚F' + '\n')
                                 break
