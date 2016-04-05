@@ -18,7 +18,7 @@ while True:
                                 break
                             elif to == 'k':
                                 k = c + 273.15
-                                k1 = round(k, 1)
+                                k1 = round(k, 2)
                                 print("The temperature is: " + str(k1) + ' K' + '\n')
                                 break
                             else:
