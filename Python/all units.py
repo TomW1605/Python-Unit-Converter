@@ -22,7 +22,7 @@ while True:
                                 print("The temperature is: " + str(k1) + ' K' + '\n')
                                 break
                             else:
-                                print("I didn't quite get that, please anser Fahrenheit(f) or Kelvin(k).\n")
+                                print("I didn't quite get that, please answer Fahrenheit(f) or Kelvin(k).\n")
                             break
                         elif from1 == 'f':
                             to = input('What do you want to convert to? ')
@@ -38,7 +38,7 @@ while True:
                                 print("The temperature is: " + str(k1) + ' K' + '\n')
                                 break
                             else:
-                                print("I didn't quite get that, please anser Celsius(c) or Kelvin(k).\n")
+                                print("I didn't quite get that, please answer Celsius(c) or Kelvin(k).\n")
                             break
                         elif from1 == 'k':
                             to = input('What do you want to convert to? ')
@@ -54,18 +54,18 @@ while True:
                                 print("The temperature is: " + str(f1) + '˚F' + '\n')
                                 break
                         else:
-                            print("I didn't quite get that, please anser Celsius(c) or Fahrenheit(f).\n")
+                            print("I didn't quite get that, please answer Celsius(c) or Fahrenheit(f).\n")
                         break
                     else:
-                        print("I didn't quite get that, please anser Celsius(c), Fahrenheit(f) or Kelvin(k).\n")
+                        print("I didn't quite get that, please answer Celsius(c), Fahrenheit(f) or Kelvin(k).\n")
                     while True:
-                        redo = input('Do you want to do another temperature convertion? ')
+                        redo = input('Do you want to do another temperature conversion? ')
                         if redo is 'y':
                             break
                         elif redo is 'n':
                             break
                         else:
-                            print("I didn't quite get that, please anser yes(y) or no(n).\n")
+                            print("I didn't quite get that, please answer yes(y) or no(n).\n")
                         break
                 if redo is 'y':
                     print('Ok')
@@ -83,15 +83,15 @@ while True:
                 print('volume converter coming soon.\n')
                 break
             else:
-                print("I didn't quite get that, please anser temperature(t), distance(d), area(a) or volume(v).\n")
+                print("I didn't quite get that, please answer temperature(t), distance(d), area(a) or volume(v).\n")
         while True:
-            redo1 = input('Do you want to do another convertion? ')
+            redo1 = input('Do you want to do another conversion? ')
             if redo1 is 'y':
                 break
             elif redo1 is 'n':
                 break
             else:
-                print("I didn't quite get that, please anser yes(y) or no(n).\n")
+                print("I didn't quite get that, please answer yes(y) or no(n).\n")
         if redo1 is 'y':
             print('Ok\n')
         elif redo1 is 'n':
